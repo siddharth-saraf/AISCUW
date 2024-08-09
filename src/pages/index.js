@@ -15,7 +15,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
-			background="--color-aiscDavisBlack"
+			background="rgb(36,36,36)"
 			margin="0 0 0 0"
 			padding="48px 160px 24px 160px"
 			quarkly-title="Header"
@@ -89,7 +89,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section
-			background="url(https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Davis%20Website%20Hero%20Image.png?v=2023-11-07T21:35:08.566Z) 0% 0%/cover no-repeat scroll"
+			background="#000000 url(https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Davis%20Website%20Hero%20Image.png?v=2023-11-07T21:35:08.566Z) 0% 0%/cover no-repeat scroll"
 			color="--aiscDavisBlack"
 			display="flex"
 			height="100%"
