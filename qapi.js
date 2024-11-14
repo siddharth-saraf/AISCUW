@@ -6,7 +6,9 @@ export default {
 			"name": "root",
 			"children": [
 				"66b57a1ac2c6080018ead5e6",
-				"66b57a1ac2c6080018ead5e9"
+				"66b57a1ac2c6080018ead5e9",
+				"66cbc81e2fc7070018bb4930",
+				"66cbc8b92fc7070018bb4954"
 			]
 		},
 		"66b57a1ac2c6080018ead5e6": {
@@ -18,6 +20,16 @@ export default {
 			"id": "66b57a1ac2c6080018ead5e9",
 			"name": "index",
 			"pageUrl": "index"
+		},
+		"66cbc81e2fc7070018bb4930": {
+			"id": "66cbc81e2fc7070018bb4930",
+			"pageUrl": "our-team",
+			"name": "Our Team"
+		},
+		"66cbc8b92fc7070018bb4954": {
+			"id": "66cbc8b92fc7070018bb4954",
+			"pageUrl": "programs",
+			"name": "Programs"
 		}
 	},
 	"mode": "production",

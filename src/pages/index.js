@@ -58,7 +58,7 @@ export default (() => {
 				height="fit-content"
 			>
 				<Link
-					href="/index"
+					href="/our-team"
 					color="#F7FBFF"
 					max-width="fit-content"
 					text-decoration-line="initial"
@@ -69,11 +69,45 @@ export default (() => {
 					sm-padding="0px 0 0px 0px"
 					height="100% border-box"
 					min-height="fit-content"
+					quarkly-title="Our Team"
+				>
+					Our Team
+				</Link>
+				<Link
+					href="/programs"
+					color="#F7FBFF"
+					max-width="fit-content"
+					text-decoration-line="initial"
+					padding="0px 32px 0px 0px"
+					font="200 16px sans-serif"
+					hover-color="#FF43AD"
+					transition="all 0.2s ease 0s"
+					sm-padding="0px 0 0px 0px"
+					height="100% border-box"
+					min-height="fit-content"
+					quarkly-title="Our Programs"
+				>
+					Our Programs
+				</Link>
+				<Link
+					href="https://humansforai.com"
+					color="#F7FBFF"
+					max-width="fit-content"
+					text-decoration-line="initial"
+					padding="0px 32px 0px 0px"
+					font="200 16px sans-serif"
+					hover-color="#FF43AD"
+					transition="all 0.2s ease 0s"
+					sm-padding="0px 0 0px 0px"
+					height="100% border-box"
+					min-height="fit-content"
+					target="_blank"
+					quarkly-title="Humans for AI "
 				>
 					Humans for AI
 				</Link>
 				<Link
-					href="/aisc"
+					href="https://humansforai.com/aisc/"
 					color="--light"
 					max-width="fit-content"
 					text-decoration-line="initial"
@@ -83,6 +117,7 @@ export default (() => {
 					sm-margin="0px 0px 0px 24px"
 					height="100% border-box"
 					min-height="fit-content"
+					target="_blank"
 				>
 					AISC
 				</Link>
@@ -194,7 +229,7 @@ export default (() => {
 				We're on a passionate mission to shape a future of AI literacy for all by empowering students from diverse backgrounds to thrive in the AI landscape.
 				<br />
 				<br />
-				We plan to launch in Winter 2024, offering exciting opportunities for involvement in technical, creative, and business roles. Join us in the AI revolution and be part of something extraordinary.
+				We plan to launch in Fall 2024, offering exciting opportunities for involvement in technical, creative, and business roles. Join us in the AI revolution and be part of something extraordinary.
 			</Text>
 			<Image
 				src="https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Davis%20Website%20Glow.png?v=2023-11-07T22:40:38.455Z"
@@ -342,6 +377,7 @@ export default (() => {
 						width="148px"
 						sm-width="auto"
 						sm-min-width="8px"
+						background="rgba(46,46,46)"
 					>
 						Promoting AI accessibility for all by breaking down the barriers to knowledge and opportunity
 					</Text>
@@ -406,6 +442,7 @@ export default (() => {
 						width="148px"
 						sm-width="auto"
 						sm-min-width="8px"
+						background="rgba(46,46,46)"
 					>
 						Empowering students with enriching resources and experiences to shape the future
 					</Text>
@@ -470,6 +507,7 @@ export default (() => {
 						width="148px"
 						sm-width="auto"
 						sm-min-width="8px"
+						background="rgba(46,46,46)"
 					>
 						Celebrating diversity in AI, fostering innovation through varied perspectives
 					</Text>
