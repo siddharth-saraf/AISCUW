@@ -58,39 +58,6 @@ export default (() => {
 				height="fit-content"
 			>
 				<Link
-					href="/"
-					color="#F7FBFF"
-					max-width="fit-content"
-					text-decoration-line="initial"
-					padding="0px 32px 0px 0px"
-					font="200 16px sans-serif"
-					hover-color="#FF43AD"
-					transition="all 0.2s ease 0s"
-					sm-padding="0px 0 0px 0px"
-					height="100% border-box"
-					min-height="fit-content"
-					quarkly-title="Home"
-				>
-					Our Team
-				</Link>
-				<Link
-					href="/programs"
-					color="#F7FBFF"
-					max-width="fit-content"
-					text-decoration-line="initial"
-					padding="0px 32px 0px 0px"
-					font="200 16px sans-serif"
-					hover-color="#FF43AD"
-					transition="all 0.2s ease 0s"
-					sm-padding="0px 0 0px 0px"
-					height="100% border-box"
-					min-height="fit-content"
-					target="_blank"
-					quarkly-title="Our Programs"
-				>
-					Our Programs
-				</Link>
-				<Link
 					href="https://humansforai.com"
 					color="#F7FBFF"
 					max-width="fit-content"
@@ -106,21 +73,6 @@ export default (() => {
 					quarkly-title="Humans for AI "
 				>
 					Humans for AI
-				</Link>
-				<Link
-					href="https://humansforai.com/aisc/"
-					color="--light"
-					max-width="fit-content"
-					text-decoration-line="initial"
-					font="200 16px sans-serif"
-					hover-color="#FF43AD"
-					transition="all 0.2s ease 0s"
-					sm-margin="0px 0px 0px 24px"
-					height="100% border-box"
-					min-height="fit-content"
-					target="_blank"
-				>
-					AISC
 				</Link>
 			</Box>
 		</Section>
@@ -140,7 +92,7 @@ export default (() => {
 			<Box
 				min-width="100px"
 				min-height="100px"
-				display="grid"
+				display="flex"
 				margin="70px 0px 0px 0px"
 				grid-template-columns="repeat(4, 1fr)"
 				grid-template-rows="repeat(2, 1fr)"
@@ -149,34 +101,27 @@ export default (() => {
 				md-grid-template-rows="repeat(4, 1fr)"
 				sm-grid-template-columns="1fr"
 				sm-grid-template-rows="auto"
+				width="50% content-box"
+				height="50% content-box"
+				overflow="visible"
 			>
-				<Box min-width="100px" min-height="100px" display="flex" flex-direction="column">
-					<Image
-						display="block"
-						width="100%"
-						border-radius="18px"
-						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00:19:42.565Z"
-						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00%3A19%3A42.565Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00%3A19%3A42.565Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00%3A19%3A42.565Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00%3A19%3A42.565Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00%3A19%3A42.565Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00%3A19%3A42.565Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/IMG_4466.jpg?v=2024-10-07T00%3A19%3A42.565Z&quality=85&w=3200 3200w"
-						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-					/>
+				<Box min-width="100px" min-height="100px">
+					<Image src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22:58:25.655Z" display="block" srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
 					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
 						Vikram Murali
 					</Text>
 					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
-						President
+						Founder/President
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Image display="block" width="100%" border-radius="18px" />
-					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
-						Akshita Amarnath
-					</Text>
-					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
-						Vice-President
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Image display="block" width="100%" border-radius="18px" />
+					<Image
+						src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=200"
+						display="block"
+						lg-src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Screenshot%202024-03-26%20at%2011.25.10%E2%80%AFAM.jpg?v=2024-12-31T23:28:51.323Z"
+						srcSet="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
 					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
 						Parshvi Balu
 					</Text>
@@ -185,7 +130,13 @@ export default (() => {
 					</Text>
 				</Box>
 				<Box min-width="100px" min-height="100px">
-					<Image display="block" width="100%" border-radius="18px" />
+					<Image
+						display="block"
+						width="100%"
+						border-radius="18px"
+						lg-src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23:29:10.925Z"
+						lg-height="300px"
+					/>
 					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
 						Siddharth Saraf
 					</Text>
@@ -195,6 +146,7 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Link href="#" color="#000000" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
