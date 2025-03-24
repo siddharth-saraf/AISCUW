@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
@@ -15,6 +15,36 @@ export default (() => {
 			<meta property={"og:title"} content={"AISC UW"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
+		<Section padding="88px 0 88px 0" min-height="100vh" quarkly-title="404-6">
+			<Override slot="SectionContent" max-width="1220px" justify-content="center" />
+			<Box align-items="center" display="flex" justify-content="center" flex-direction="column">
+				<Image margin="0px 0px 7px 0px" src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00:16:56.957Z" srcSet="https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00%3A16%3A56.957Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00%3A16%3A56.957Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00%3A16%3A56.957Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00%3A16%3A56.957Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00%3A16%3A56.957Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00%3A16%3A56.957Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/612695d67f2b1f001fa06c1f/images/warning-error-delete%201.png?v=2021-08-31T00%3A16%3A56.957Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+				<Text color="--dark" margin="0px 0px 24px 0px" sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif" font="--headline1">
+					404 Error!
+				</Text>
+				<Text
+					width="40%"
+					lg-width="80%"
+					font="--lead"
+					color="--grey"
+					margin="0px 0px 40px 0px"
+					text-align="center"
+				>
+					The page you are looking for is not available or doesn’t belong to this website!
+				</Text>
+				<Link
+					font="--lead"
+					padding="12px 24px 12px 24px"
+					background="--color-dark"
+					border-radius="8px"
+					href="#"
+					text-decoration-line="initial"
+					color="--light"
+				>
+					Go Back to Home
+				</Link>
+			</Box>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

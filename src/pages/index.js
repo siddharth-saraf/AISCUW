@@ -496,6 +496,202 @@ export default (() => {
 			min-height="fit-content"
 			height="100%"
 			text-align="center"
+			background="url(https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/aisc%20davis%20what%20we%20offer%20cube%20bg.png?v=2024-01-08T05:40:29.141Z) 100% 50%/cover"
+			padding="124px 160px 148px 160px"
+			quarkly-title="What We Offer + Past Highlights"
+			justify-content="center"
+			max-width="100%"
+			width="100% border-box"
+			sm-padding="84px 36px 100px 36px"
+			sm-height="fit-content"
+			sm-background="url(https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/aisc%20davis%20what%20we%20offer%20cube%20bg.png?v=2024-01-08T05:40:29.141Z) 100%/cover"
+		>
+			<Override
+				slot="SectionContent"
+				align-items="flex-start"
+				flex-direction="column"
+				margin="0px 0 0px 0"
+				max-width="fit-content"
+				width="auto"
+			/>
+			<Text
+				margin="0px 0px 0px 0px"
+				background="rgba(0, 0, 0, 0)"
+				color="--light"
+				text-align="center"
+				font="normal 500 36px --fontFamily-sans"
+				padding="0px 0px 80px 0px"
+				min-width="fit-content"
+				sm-margin="0px 0px 64px 0px"
+				sm-padding="0px 0px 0 0px"
+			>
+				Past Highlights
+			</Text>
+			<Section
+				padding="0px 0px 0px 0px"
+				justify-content="space-between"
+				display="flex"
+				width="100% border-box"
+				min-width="100%"
+				max-width="fit-content"
+				quarkly-title="Past Highlights"
+				sm-height="fit-content"
+				sm-width="100% border-box"
+				sm-min-height="fit-content"
+			>
+				<Override
+					slot="SectionContent"
+					margin="0px 0 0px 0"
+					align-items="center"
+					flex-direction="row"
+					justify-content="space-between"
+					width="auto"
+					min-width="fit-contentmin-content"
+					max-width="100%"
+					sm-flex-wrap="wrap"
+					sm-height="fit-content"
+					flex-wrap="wrap"
+					height="fit-content"
+					min-height="fit-content"
+				/>
+				<Box
+					min-width="100px"
+					min-height="100%"
+					display="block"
+					max-width="min-content"
+					max-height="fit-content"
+					padding="0 0 0 0"
+					width="auto"
+					height="auto"
+					margin="0 24px 24px 0"
+					sm-width="100% border-box"
+					sm-min-width="100%"
+					sm-margin="0px 0 64px 0px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06:27:58.764Z"
+						display="block"
+						height="auto"
+						min-height="100%"
+						padding="0px 0px 48px 0px"
+						object-fit="contain"
+						width="300px"
+						min-width="100%100%"
+						filter="--grayscale"
+						sm-width="100% border-box"
+						sm-min-width="100%"
+						sm-padding="0px 0px 0 0px"
+						sm-margin="0px 0px 24px 0px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06%3A27%3A58.764Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06%3A27%3A58.764Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06%3A27%3A58.764Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06%3A27%3A58.764Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06%3A27%3A58.764Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06%3A27%3A58.764Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/acrossbw.png?v=2025-03-24T06%3A27%3A58.764Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text
+						margin="0px 0px 16px 0px"
+						color="#51B7FF"
+						text-align="left"
+						font="500 20px sans-serif"
+						padding="0px 0px 0 0px"
+						sm-margin="0px 0px 8px 0px"
+						sm-padding="0px 0px 0 0px"
+					>
+						AI Across Disciplines Symposium
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--light"
+						text-align="left"
+						font="200 18px sans-serif"
+						width="fit-content"
+						padding="0px 0px 16px 0px"
+						sm-margin="0px 0px 8px 0px"
+						sm-padding="0px 0px 0 0px"
+					>
+						February 2025
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--lightD1"
+						text-align="left"
+						font="200 18px sans-serif"
+						width="fit-content"
+					>
+						The event included live demos, Q&A sessions, food and drinks, plus networking with speakers who are leading innovators discussing AI applications in law, space, defense, business, and digital humanitie
+					</Text>
+				</Box>
+				<Box
+					min-height="100%"
+					max-height="fit-content"
+					width="auto"
+					height="auto"
+					padding="0 0 0 0"
+					min-width="100%100%"
+					max-width="min-content"
+					margin="0 24px 24px 0"
+					sm-width="100% border-box"
+					sm-min-width="100%"
+					sm-margin="0px 0 64px 0px"
+				>
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06:14:32.195Z"
+						display="block"
+						min-height="100%"
+						padding="0px 0px 48px 0px"
+						height="300px"
+						width="300px"
+						min-width="none"
+						filter="--grayscale"
+						sm-width="100% border-box"
+						sm-margin="0px 0px 24px 0px"
+						sm-padding="0px 0px 0 0px"
+						sm-min-width="100%"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06%3A14%3A32.195Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06%3A14%3A32.195Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06%3A14%3A32.195Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06%3A14%3A32.195Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06%3A14%3A32.195Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06%3A14%3A32.195Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/kickoffbw.png?v=2025-03-24T06%3A14%3A32.195Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text
+						margin="0px 0px 16px 0px"
+						color="#51B7FF"
+						text-align="left"
+						font="500 20px sans-serif"
+						padding="0px 0px 0 0px"
+						sm-margin="0px 0px 8px 0px"
+						sm-padding="0px 0px 0 0px"
+					>
+						AISC UW Kickoff
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--light"
+						text-align="left"
+						font="200 18px sans-serif"
+						width="fit-content"
+						padding="0px 0px 16px 0px"
+						sm-margin="0px 0px 8px 0px"
+						sm-padding="0px 0px 0 0px"
+					>
+						January 2025
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						color="--lightD1"
+						text-align="left"
+						font="200 18px sans-serif"
+						width="fit-content"
+					>
+						Our first event where we kicked off providing students with an opportunity to hear from us about our plans as well as presentations with speakers from Microsoft about their experience with AISC and how AI is used in their career
+					</Text>
+				</Box>
+			</Section>
+		</Section>
+		<Section
+			color="#2e2e2e"
+			display="flex"
+			overflow-x="visible"
+			overflow-y="visible"
+			align-items="flex-start"
+			max-height="100%"
+			min-height="fit-content"
+			height="100%"
+			text-align="center"
 			padding="100px 160px 124px 160px"
 			quarkly-title="Upcoming Events"
 			justify-content="center"
