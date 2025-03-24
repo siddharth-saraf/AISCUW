@@ -38,18 +38,20 @@ export default (() => {
 				sm-align-items="center"
 				sm-justify-content="space-between"
 			/>
-			<Image
-				src="https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22:12:47.498Z"
-				display="block"
-				height="32px"
-				width="32px"
-				quarkly-title="Logo"
-				sm-margin="0px 24px 0px 0px"
-				min-height="32px"
-				min-width="32px"
-				srcSet="https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=3200 3200w"
-				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-			/>
+			<Link href="https://aiscuw.netlify.app/">
+				<Image
+					src="https://uploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22:12:47.498Z"
+					display="block"
+					height="32px"
+					width="32px"
+					quarkly-title="Logo"
+					sm-margin="0px 24px 0px 0px"
+					min-height="32px"
+					min-width="32px"
+					srcSet="https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/6426e7e68d8a1a002089f81f/images/AISC%20Logo%20Outline%20White.png?v=2023-11-07T22%3A12%3A47.498Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+				/>
+			</Link>
 			<Box
 				min-width="100px"
 				min-height="fit-content"
@@ -78,15 +80,23 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section background="rgb(36,36,36)" quarkly-title="Team-5" padding="90px 0 120px 0">
-			<Text margin="0px 0px 0px 0px" color="--light" text-align="left" font="600 48px --fontFamily-sans">
+			<Text
+				margin="0px 0px 0px 0px"
+				color="--light"
+				text-align="left"
+				font="600 48px --fontFamily-sans"
+				order="0"
+				align-self="center"
+			>
 				Our team
 			</Text>
 			<Text
-				margin="25px 600px 0px 0px"
-				text-align="left"
+				margin="25px 0px 0px 0px"
+				text-align="center"
 				color="#b2bdc6"
 				font="300 22px/150% --fontFamily-sansHelvetica"
 				lg-margin="25px 0 0px 0px"
+				align-self="center"
 			>
 				Say hello to the AISC Board at UW!
 			</Text>
@@ -178,12 +188,12 @@ export default (() => {
 				</Box>
 				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
 					<Image
-						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01:26:50.189Z"
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05:31:03.485Z"
 						display="block"
 						width="200px"
 						md-height="200px"
 						height="200px"
-						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=3200 3200w"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05%3A31%3A03.485Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05%3A31%3A03.485Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05%3A31%3A03.485Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05%3A31%3A03.485Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05%3A31%3A03.485Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05%3A31%3A03.485Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/asmi.png?v=2025-03-24T05%3A31%3A03.485Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
@@ -342,7 +352,7 @@ export default (() => {
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
-						Nitya Kakulamarri{"\n\n"}
+						Nitya Kakulamarri
 					</Text>
 					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
 						Freshman Rep

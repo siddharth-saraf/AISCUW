@@ -77,6 +77,22 @@ export default (() => {
 				>
 					Humans for AI
 				</Link>
+				<Link
+					href="https://aiscuw.netlify.app/our-team/"
+					color="#F7FBFF"
+					max-width="fit-content"
+					text-decoration-line="initial"
+					padding="0px 32px 0px 0px"
+					font="200 16px sans-serif"
+					hover-color="#FF43AD"
+					transition="all 0.2s ease 0s"
+					sm-padding="0px 0 0px 0px"
+					height="100% border-box"
+					min-height="fit-content"
+					quarkly-title="Our Team"
+				>
+					Our Team
+				</Link>
 			</Box>
 		</Section>
 		<Section
