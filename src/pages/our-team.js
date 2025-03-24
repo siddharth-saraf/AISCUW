@@ -9,9 +9,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"our-team"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				AISC UW
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta property={"og:title"} content={"AISC UW"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
@@ -374,7 +375,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"66b57a1ac2c6080018ead5df"}>
-				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}"}
+				{":root {\n  box-sizing: border-box;\n}\n\n* {\n  box-sizing: inherit;\n}\n\n#gatsby-focus-wrapper>a{\n display: none;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;

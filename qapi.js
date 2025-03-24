@@ -30,6 +30,9 @@ export default {
 	"projectType": "gatsby",
 	"site": {
 		"styles": {},
-		"seo": {}
+		"seo": {
+			"title": "AISC UW",
+			"og:title": "AISC UW"
+		}
 	}
 }
