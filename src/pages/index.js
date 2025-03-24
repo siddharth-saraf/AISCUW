@@ -1073,7 +1073,7 @@ export default (() => {
 						Instagram
 					</Link>
 					<Link
-						href="https://www.linkedin.com/company/ai-student-collective"
+						href="https://www.linkedin.com/company/ai-student-collective-uw/"
 						color="rgb(204,204,204)"
 						font="200 18px sans-serif"
 						padding="0px 0px 8px 0px"
@@ -1085,7 +1085,7 @@ export default (() => {
 						LinkedIn
 					</Link>
 					<Link
-						href="mailto:aiscdavis@humansforai.com"
+						href="mailto:aisc@uw.edu"
 						color="rgb(204,204,204)"
 						font="200 18px sans-serif"
 						padding="0px 0px px 0px"
