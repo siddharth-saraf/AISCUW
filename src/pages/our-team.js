@@ -76,7 +76,7 @@ export default (() => {
 				</Link>
 			</Box>
 		</Section>
-		<Section background="rgb(36,36,36)" padding="90px 0 120px 0" quarkly-title="Team-5">
+		<Section background="rgb(36,36,36)" quarkly-title="Team-5" padding="90px 0 120px 0">
 			<Text margin="0px 0px 0px 0px" color="--light" text-align="left" font="600 48px --fontFamily-sans">
 				Our team
 			</Text>
@@ -87,7 +87,7 @@ export default (() => {
 				font="300 22px/150% --fontFamily-sansHelvetica"
 				lg-margin="25px 0 0px 0px"
 			>
-				Say hello to the AISC team at UW!
+				Say hello to the AISC Board at UW!
 			</Text>
 			<Box
 				min-width="100px"
@@ -104,9 +104,19 @@ export default (() => {
 				width="50% content-box"
 				height="50% content-box"
 				overflow="visible"
+				justify-content="center"
+				flex-wrap="no-wrap"
 			>
 				<Box min-width="100px" min-height="100px">
-					<Image src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22:58:25.655Z" display="block" srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=3200 3200w" sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw" />
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22:58:25.655Z"
+						display="block"
+						width="200px"
+						height="200px"
+						overflow="visible"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0684.JPG?v=2025-03-06T22%3A58%3A25.655Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
 					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
 						Vikram Murali
 					</Text>
@@ -114,34 +124,227 @@ export default (() => {
 						Founder/President
 					</Text>
 				</Box>
-				<Box min-width="100px" min-height="100px">
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
 					<Image
-						src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=200"
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23:29:10.925Z"
 						display="block"
-						lg-src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Screenshot%202024-03-26%20at%2011.25.10%E2%80%AFAM.jpg?v=2024-12-31T23:28:51.323Z"
-						srcSet="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=500 500w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=800 800w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1080 1080w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600 1600w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000 2000w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2600 2600w,https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=3200 3200w"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23%3A29%3A10.925Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23%3A29%3A10.925Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23%3A29%3A10.925Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23%3A29%3A10.925Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23%3A29%3A10.925Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23%3A29%3A10.925Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23%3A29%3A10.925Z&quality=85&w=3200 3200w"
 						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
-					/>
-					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
-						Parshvi Balu
-					</Text>
-					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
-						Director of Outreach
-					</Text>
-				</Box>
-				<Box min-width="100px" min-height="100px">
-					<Image
-						display="block"
-						width="100%"
-						border-radius="18px"
-						lg-src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/DSC_0491.jpg?v=2024-12-31T23:29:10.925Z"
-						lg-height="300px"
 					/>
 					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
 						Siddharth Saraf
 					</Text>
 					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
-						Director of Events
+						Co-Founder/Senior VP
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01:26:50.234Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01%3A26%3A50.234Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01%3A26%3A50.234Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01%3A26%3A50.234Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01%3A26%3A50.234Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01%3A26%3A50.234Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01%3A26%3A50.234Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Sai.png?v=2025-03-11T01%3A26%3A50.234Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Sai Sunku
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						VP of Education
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01:26:50.189Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Madhu Gandhi
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						VP of Operations
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01:26:50.189Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/madhu.jpg?v=2025-03-11T01%3A26%3A50.189Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Asmi Sathaye
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						VP of Innovation
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				margin="70px 0px 0px 0px"
+				grid-template-columns="repeat(4, 1fr)"
+				grid-template-rows="repeat(2, 1fr)"
+				grid-gap="40px 35px"
+				md-grid-template-columns="repeat(2, 1fr)"
+				md-grid-template-rows="repeat(4, 1fr)"
+				sm-grid-template-columns="1fr"
+				sm-grid-template-rows="auto"
+				width="50% content-box"
+				height="50% content-box"
+				overflow="visible"
+				justify-content="center"
+			>
+				<Box min-width="100px" min-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02:02:29.425Z"
+						display="block"
+						width="200px"
+						height="200px"
+						overflow="visible"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02%3A02%3A29.425Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02%3A02%3A29.425Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02%3A02%3A29.425Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02%3A02%3A29.425Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02%3A02%3A29.425Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02%3A02%3A29.425Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Mohit.jpeg?v=2025-03-11T02%3A02%3A29.425Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Mohit Mohanraj
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						Director of Finance
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01:26:50.217Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01%3A26%3A50.217Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01%3A26%3A50.217Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01%3A26%3A50.217Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01%3A26%3A50.217Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01%3A26%3A50.217Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01%3A26%3A50.217Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/SahanaHegde.jpg?v=2025-03-11T01%3A26%3A50.217Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Sahana Hegde
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						Director of Marketing
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01:26:50.207Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01%3A26%3A50.207Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01%3A26%3A50.207Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01%3A26%3A50.207Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01%3A26%3A50.207Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01%3A26%3A50.207Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01%3A26%3A50.207Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/shri.jpeg?v=2025-03-11T01%3A26%3A50.207Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Shri Paruchuri
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						Director of Outreach
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01:26:50.241Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01%3A26%3A50.241Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01%3A26%3A50.241Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01%3A26%3A50.241Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01%3A26%3A50.241Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01%3A26%3A50.241Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01%3A26%3A50.241Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/reuben.png?v=2025-03-11T01%3A26%3A50.241Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Reuben Santoso
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						Director of R & D
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01:26:50.213Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01%3A26%3A50.213Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01%3A26%3A50.213Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01%3A26%3A50.213Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01%3A26%3A50.213Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01%3A26%3A50.213Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01%3A26%3A50.213Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/TK_ProfilePic.jpg?v=2025-03-11T01%3A26%3A50.213Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						TK Chang
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						Director of Projects
+					</Text>
+				</Box>
+			</Box>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				margin="70px 0px 0px 0px"
+				grid-template-columns="repeat(4, 1fr)"
+				grid-template-rows="repeat(2, 1fr)"
+				grid-gap="40px 35px"
+				md-grid-template-columns="repeat(2, 1fr)"
+				md-grid-template-rows="repeat(4, 1fr)"
+				sm-grid-template-columns="1fr"
+				sm-grid-template-rows="auto"
+				width="50% content-box"
+				height="50% content-box"
+				overflow="visible"
+				justify-content="center"
+			>
+				<Box min-width="100px" min-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01:26:50.196Z"
+						display="block"
+						width="200px"
+						height="200px"
+						overflow="visible"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01%3A26%3A50.196Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01%3A26%3A50.196Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01%3A26%3A50.196Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01%3A26%3A50.196Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01%3A26%3A50.196Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01%3A26%3A50.196Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/hasan.jpeg?v=2025-03-11T01%3A26%3A50.196Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Hasan Wazir
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						Freshman Rep
+					</Text>
+				</Box>
+				<Box min-width="100px" min-height="100px" md-width="200px" md-height="100px">
+					<Image
+						src="https://uploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01:26:50.205Z"
+						display="block"
+						width="200px"
+						md-height="200px"
+						height="200px"
+						srcSet="https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01%3A26%3A50.205Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01%3A26%3A50.205Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01%3A26%3A50.205Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01%3A26%3A50.205Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01%3A26%3A50.205Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01%3A26%3A50.205Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/66b57a1ac2c6080018ead5e1/images/Nitya.JPEG?v=2025-03-11T01%3A26%3A50.205Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
+					<Text margin="25px 0px 0px 0px" color="--light" font="600 18px --fontFamily-sans">
+						Nitya Kakulamarri{"\n\n"}
+					</Text>
+					<Text margin="8px 0px 0px 0px" color="#b2bdc6" font="300 18px --fontFamily-sansHelvetica">
+						Freshman Rep
 					</Text>
 				</Box>
 			</Box>
