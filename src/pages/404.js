@@ -37,7 +37,7 @@ export default (() => {
 					padding="12px 24px 12px 24px"
 					background="--color-dark"
 					border-radius="8px"
-					href="#"
+					href="https://aiscuw.netlify.app"
 					text-decoration-line="initial"
 					color="--light"
 				>
