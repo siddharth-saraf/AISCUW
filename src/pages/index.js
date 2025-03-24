@@ -830,10 +830,11 @@ export default (() => {
 						min-width="fit-content"
 						max-width="fit-content"
 					>
-						Wed, 4/2
+						Thurs, 4/3
 						<br />
-						5:00-6:30pm
+						5:30-7:00pm
 						<br />
+						Paccar 290
 					</Text>
 				</Box>
 				<Box
@@ -887,7 +888,7 @@ export default (() => {
 					>
 						Mon, 4/7
 						<br />
-						5-7pm
+						5:00-7:00pm
 					</Text>
 				</Box>
 				<Box
@@ -938,10 +939,11 @@ export default (() => {
 						min-width="fit-content"
 						max-width="fit-content"
 					>
-						Sat-Sun, 4/19-4/20
+						Sat-Sun, 4/26-4/27
 						<br />
-						9am-6pm
+						9:00am-5:00pm
 						<br />
+						Kane 110
 					</Text>
 				</Box>
 				<Box
