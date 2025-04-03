@@ -589,20 +589,21 @@ export default (() => {
 					<Text
 						margin="0px 0px 16px 0px"
 						color="#51B7FF"
-						text-align="left"
+						text-align="center"
 						font="500 20px sans-serif"
 						padding="0px 0px 0 0px"
 						sm-margin="0px 0px 8px 0px"
 						sm-padding="0px 0px 0 0px"
+						width="100%"
 					>
 						AI Across Disciplines Symposium
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--light"
-						text-align="left"
+						text-align="center"
 						font="200 18px sans-serif"
-						width="fit-content"
+						width="100%"
 						padding="0px 0px 16px 0px"
 						sm-margin="0px 0px 8px 0px"
 						sm-padding="0px 0px 0 0px"
@@ -612,9 +613,9 @@ export default (() => {
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--lightD1"
-						text-align="left"
+						text-align="center"
 						font="200 18px sans-serif"
-						width="fit-content"
+						width="100%"
 					>
 						The event included live demos, Q&A sessions, food and drinks, plus networking with speakers who are leading innovators discussing AI applications in law, space, defense, business, and digital humanitie
 					</Text>
@@ -651,32 +652,33 @@ export default (() => {
 					<Text
 						margin="0px 0px 16px 0px"
 						color="#51B7FF"
-						text-align="left"
+						text-align="center"
 						font="500 20px sans-serif"
 						padding="0px 0px 0 0px"
 						sm-margin="0px 0px 8px 0px"
 						sm-padding="0px 0px 0 0px"
+						width="100%"
 					>
 						AISC UW Kickoff
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--light"
-						text-align="left"
 						font="200 18px sans-serif"
-						width="fit-content"
+						width="100%"
 						padding="0px 0px 16px 0px"
 						sm-margin="0px 0px 8px 0px"
 						sm-padding="0px 0px 0 0px"
+						text-align="center"
 					>
 						January 2025
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
 						color="--lightD1"
-						text-align="left"
+						text-align="center"
 						font="200 18px sans-serif"
-						width="fit-content"
+						width="100%"
 					>
 						Our first event where we kicked off providing students with an opportunity to hear from us about our plans as well as presentations with speakers from Microsoft about their experience with AISC and how AI is used in their career
 					</Text>
